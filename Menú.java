@@ -25,9 +25,6 @@ public class Menú {
                 case 3:
                     // frase = pasarMinusculas(frase);
                     break;
-                case 4:
-                    // mostrarFrase(frase);
-                    break;
                 case 5:
                     System.out.println("¡Hasta luego!");
                     break;
@@ -41,5 +38,10 @@ public class Menú {
     public static String invertirFrase(String frase) {
         return new StringBuilder(frase).reverse().toString();
     }
+
+    public static void mostrarFrase(String frase) {
+        System.out.println("Frase actual: " + frase);
+    }
+    
     
 }
