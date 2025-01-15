@@ -19,17 +19,11 @@ public class Menú {
             scn.nextLine(); // Limpiar buffer
         
             switch (option) {
-                case 1:
-                    // frase = invertirFrase(frase);
-                    break;
                 case 2:
                     // frase = pasarMayusculas(frase);
                     break;
                 case 3:
                     // frase = pasarMinusculas(frase);
-                    break;
-                case 4:
-                    // mostrarFrase(frase);
                     break;
                 case 5:
                     System.out.println("¡Hasta luego!");
@@ -41,5 +35,13 @@ public class Menú {
         
     }
 
+    public static String invertirFrase(String frase) {
+        return new StringBuilder(frase).reverse().toString();
+    }
+
+    public static void mostrarFrase(String frase) {
+        System.out.println("Frase actual: " + frase);
+    }
+    
     
 }
