@@ -25,9 +25,6 @@ public class ProgramaFrase {
     	case 1:
         // invertirFrase(frase);
         break;
-    	case 3:
-        // pasarMinusculas(frase);
-        break;
     	case 4:
         // mostrarFrase(frase);
         break;
@@ -43,5 +40,9 @@ public class ProgramaFrase {
 
 	public static String pasarMayusculas(String frase) {
 		return frase.toUpperCase();
+	}
+
+	public static String pasarMinusculas(String frase) {
+		return frase.toLowerCase();
 	}
 }
