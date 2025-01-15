@@ -35,13 +35,13 @@ public class Menú {
         
     }
 
-    public static String invertirFrase(String frase) {
-        return new StringBuilder(frase).reverse().toString();
+    public static String pasarMayusculas(String frase) {
+        return frase.toUpperCase();
     }
-
-    public static void mostrarFrase(String frase) {
-        System.out.println("Frase actual: " + frase);
-    }
+    
+    public static String pasarMinusculas(String frase) {
+        return frase.toLowerCase();
+    }   
     
     
 }
