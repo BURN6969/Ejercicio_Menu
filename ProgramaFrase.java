@@ -21,6 +21,26 @@ public class ProgramaFrase {
             scanner.nextLine(); // Limpiar el buffer de entrada
         } while (opcion != 5);
 
+	switch (opcion) {
+    	case 1:
+        // invertirFrase(frase);
+        break;
+    	case 2:
+        // pasarMayusculas(frase);
+        break;
+    	case 3:
+        // pasarMinusculas(frase);
+        break;
+    	case 4:
+        // mostrarFrase(frase);
+        break;
+    	case 5:
+        System.out.println("¡Adiós!");
+        break;
+    		default:
+        System.out.println("Opción no válida.");
+}
+
         scanner.close();
     }
 }
