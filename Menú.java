@@ -19,9 +19,6 @@ public class Menú {
             scn.nextLine(); // Limpiar buffer
         
             switch (option) {
-                case 2:
-                    // frase = pasarMayusculas(frase);
-                    break;
                 case 3:
                     // frase = pasarMinusculas(frase);
                     break;
@@ -42,6 +39,11 @@ public class Menú {
     public static void mostrarFrase(String frase) {
         System.out.println("Frase actual: " + frase);
     }
+
+    public static String pasarMayusculas(String frase) {
+        return frase.toUpperCase();
+    }
+    
     
     
 }
