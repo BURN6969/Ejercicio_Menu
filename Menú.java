@@ -19,9 +19,6 @@ public class Menú {
             scn.nextLine(); // Limpiar buffer
         
             switch (option) {
-                case 1:
-                    // frase = invertirFrase(frase);
-                    break;
                 case 2:
                     // frase = pasarMayusculas(frase);
                     break;
@@ -40,4 +37,9 @@ public class Menú {
         } while (option != 5);
         
     }
+
+    public static String invertirFrase(String frase) {
+        return new StringBuilder(frase).reverse().toString();
+    }
+    
 }
