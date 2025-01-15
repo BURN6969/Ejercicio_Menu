@@ -19,9 +19,6 @@ public class Menú {
             scn.nextLine(); // Limpiar buffer
         
             switch (option) {
-                case 3:
-                    // frase = pasarMinusculas(frase);
-                    break;
                 case 5:
                     System.out.println("¡Hasta luego!");
                     break;
@@ -44,6 +41,9 @@ public class Menú {
         return frase.toUpperCase();
     }
     
+    public static String pasarMinusculas(String frase) {
+        return frase.toLowerCase();
+    }   
     
     
 }
